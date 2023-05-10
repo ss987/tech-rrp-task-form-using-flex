@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, black, navy, dodgerblue);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 60%;
+}
+.signup-container{
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
+    align-items: center;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    margin-top: 0%;
+}  
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+#tnc{
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    align-self: center;
+    
+  }
